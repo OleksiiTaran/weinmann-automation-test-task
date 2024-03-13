@@ -29,6 +29,7 @@ jobs:
 
       - name: Generate summary report
         uses: daun/playwright-report-summary@v3
+        if: always()
         with: 
           job-summary: true
           report-file: report.json

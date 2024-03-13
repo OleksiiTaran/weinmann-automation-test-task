@@ -30,4 +30,5 @@ jobs:
       - name: Generate summary report
         uses: daun/playwright-report-summary@v3
         with: 
+          job-summary: true
           report-file: report.json
